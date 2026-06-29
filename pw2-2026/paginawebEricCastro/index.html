@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <img src="perfil.jpg" alt="Foto de perfil" class="perfil">
+        <h2>Eric Castro</h2>
+        <p>Desarrollador Web y Estudiante de Ingeniería</p>
+        <button onclick="mostrarMensaje()">Conocer Más</button>
+    </section>
+
+    <section id="bio" class="contenido">
+        <h2>Biografía</h2>
+        <p>
+            Soy estudiante universitario apasionado por el desarrollo web,
+            programación y diseño de aplicaciones. Estoy interesado en crear proyectos
+            innovadores utilizando HTML, CSS, JavaScript y tecnologías modernas.
+            También tengo experiencia en proyectos académicos relacionados con
+            electronica, aplicaciones móviles y Desarollo de Software.
+        </p>
+    </section>
+
+    <section id="proyectos" class="contenido">
+        <h2>Proyectos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Sistema de Cooperativa</h3>
+                <p>
+                    Aplicación web para gestionar afiliados, depósitos y retiros.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Aplicación Android</h3>
+                <p>
+                    Aplicación móvil desarrollada en Android Studio utilizando Java.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Proyectos de Arduino</h3>
+                <p>
+                    Automatización de motores, sensores y sistemas electrónicos.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contenido">
+        <h2>Contacto</h2>
+
+        <form id="formulario">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea placeholder="Escriba su mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="info-contacto">
+            <p><strong>Correo:</strong> ericcastro4105@gmail.com</p>
+            <p><strong>Teléfono:</strong> 8965-2397</p>
+            <p><strong>Ubicación:</strong> Honduras</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Eric Castro - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
